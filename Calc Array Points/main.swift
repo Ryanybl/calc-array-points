@@ -8,8 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
 func add(_ x: Int?,_ y:Int?) -> Int? {
     if let x2 = x, let y2 = y{
         return (x2+y2)
